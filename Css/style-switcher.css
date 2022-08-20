@@ -1,0 +1,82 @@
+.style-switcher
+{
+    position: fixed;
+    right: 0;
+    top: 30px;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid var(--bg-black-50);
+    background:var(--bg-black-100);
+    z-index: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translatex(100%);/*اختفاء الtheme*/
+}
+.style-switcher.open
+{
+    transform:translatex(-25px);
+}
+.style-switcher .s-icon
+{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align:center;
+    font-size: 20px;
+    background:var(--bg-black-100);
+    border-radius: 50px;
+    right: 105%;
+    bottom: -1px;
+    border: 1px solid var(--bg-black-50);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.style-switcher .style-switcher-toggler
+{
+    top: 0;
+}
+.style-switcher .day-night
+{
+    top: 53px;
+}
+.style-switcher h4
+{
+    margin: 0 0 10px;
+    color:var(--text-black-700);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.style-switcher .colors
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.style-switcher .colors span
+{
+    display: inline-block;
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+}
+.style-switcher .color-1
+{
+    background: #ec1839;
+}
+.style-switcher .color-2
+{
+    background: #fa5b0f;
+}
+.style-switcher .color-3
+{
+    background: #37b182;
+}
+.style-switcher .color-4
+{
+    background:#1854b4;
+}
+.style-switcher .color-5
+{
+    background:#f021b2;
+}
