@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,500,600,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
 :root
 {
     --bg-black-900:#f2f2fc;
@@ -20,7 +20,7 @@ body
     font-family:'poppins'sans-serif;
     line-height: 1.5;
     font-size: 16px;
-    
+    overflow-x: hidden;
 }
 *
 {
