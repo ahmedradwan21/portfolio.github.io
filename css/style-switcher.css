@@ -7,7 +7,7 @@
     width: 200px;
     border: 1px solid var(--bg-black-50);
     background:var(--bg-black-100);
-    z-index: 10px;
+    z-index: 1;
     border-radius: 5px;
     transition: all 0.3s ease;
     transform: translatex(100%);/*اختفاء الtheme*/
