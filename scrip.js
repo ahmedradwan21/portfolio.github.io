@@ -26,7 +26,10 @@ const nav = document.querySelector(".nav"),
                 }
                 this.classList.add("active")
                 showSection(this);
-                
+                if(window.innerWidth < 1200)
+                {
+                    ATRSectionTogglerBtn();
+                }
             })
         }
         function showSection(element)
@@ -35,9 +38,14 @@ const nav = document.querySelector(".nav"),
             {
                 allSection[i].classList.remove("active");
             }
-            const target = (element.getAttribute("href").split("#")[1])
+            const target = element.getAttribute("href").split("#")[1];
             document.querySelector("#" + target ).classList.add("active")
         }
+    document.querySelector(".hire-me").addEventListener("click", function()
+    {
+        showSection(this);
+        updateNav(this);
+    })
     const navTogglerBtn = document.querySelector(".nav-toggler"),
     ATR = document.querySelector(".ATR");
     navTogglerBtn.addEventListener("click", () =>
@@ -53,11 +61,15 @@ const nav = document.querySelector(".nav"),
             allSection[i].classList.toggle("open")
         }
     }
+
+
+
+/*========  toggle style switcher  ========= */
 const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
 styleSwitcherToggle.addEventListener("click", () => {
     document.querySelector(".style-switcher").classList.toggle("open");
 })
-// hide style - switcher on scroll
+//  hide style - switcher on scroll
 window.addEventListener("scroll", () => {
     if(document.querySelector(".style-switcher").classList.contains("open"))
     {
@@ -96,7 +108,9 @@ window.addEventListener("load" , () =>{
         dayNight.querySelector("i").classList.add("fa-moon");
     }
 })
-        
+
+
+
 
 
 
