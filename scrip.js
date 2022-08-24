@@ -114,7 +114,7 @@ window.addEventListener("load" , () =>{
 
 
 var typed = new Typed(".typing",{
-    strings:["","FullStack","Software Engineer","backend"],
+    strings:["","FullStack Developer.","Software Engineer.","Backend Developer."],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
