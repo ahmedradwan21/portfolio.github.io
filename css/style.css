@@ -243,7 +243,8 @@ list-style: none;
 }
 .ATR .logo a span 
 {
-    font-family:'Clicker Script',cursive;
+    /* Comic sans front is being used on my PC, properly import your fronts or use built in ones, choose better fallbacks */
+    /* font-family:'Clicker Script',cursive; */
     font-size: 40px;
 }
 .ATR .logo a ::before
@@ -382,7 +383,7 @@ h3.hello
 }
 h3.hello span
 {
-    font-family: 'Clicker Script',cursive;
+    /* font-family: 'Clicker Script',cursive; */
     font-size:30px;
     font-weight:700;
     color:var(--skin-color);
@@ -884,6 +885,7 @@ h3.my-profession
     border-radius: 25px;
     background: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
+    font-family: inherit;
     padding: 10px 25px;
     font-size: 16px;
     color: var(--text-black-700);
