@@ -1,6 +1,6 @@
 # portfolio
 
-##I'm Ahmed Tarek Radwan and this is my first project on Github, it's a great project with dark mode and theme colors
+ I'm Ahmed Tarek Radwan and this is my first project on Github, it's a great project with dark mode and theme colors
 
 https://ahmedradwan21.github.io/portfolio.github.io/
 
