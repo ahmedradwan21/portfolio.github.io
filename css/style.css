@@ -534,15 +534,17 @@ h3.my-profession
 .about .about-content .skills .skill-item .progress
 {
     background-color:var(--bg-black-50);
-    height:7px;
+    height:5px;
     width:100%;
     border-radius: 4px; /*الحوافر*/
     position: relative;
 }
 .about .about-content .skills .skill-item
 {
-    margin-bottom: 25px;
-    
+    margin-bottom: 17px;
+    width: 45px;
+    height: 44px;
+    border-bottom: 2px solid var(--skin-color);
 }
 .about .about-content .skills .skill-item .progress-in
 {
