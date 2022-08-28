@@ -683,7 +683,7 @@ h3.my-profession
     width: 60px;
     border-radius: 50px;
     display: block;
-    margin: 0 auto 30px;
+    margin: 8 auto 14px;
     text-align: center;
     transition:all 0.3s ease;
 }
