@@ -484,13 +484,18 @@ h3.my-profession
     flex: 0 0 50%;
     max-width:50%;
 }
+.about .about-content .about-text h3 span 
+{
+    color: var(--skin-color);
+}
 .about .about-content .personal-info .info-item p
 {
     font-weight:600;
     padding:10px 0 ;
     font-size:16px;
-    color:var(--text-black-900);
+    color: var(--skin-color);
     border-bottom: 1px solid var(--bg-black-50);
+    text-align : center;
 }
 .about .about-content .personal-info .info-item p span
 {
@@ -567,9 +572,9 @@ h3.my-profession
 .about .about-content h3.title
 {
     font-size: 24px;
-    margin-bottom:300px;
+    margin-bottom: 300px;
     font-weight: 700;
-    color:var(--text-black-900);
+    color: var(--skin-color);
 }
 .about .about-content .timeline-box
 {
@@ -627,9 +632,9 @@ h3.my-profession
 {
     font-weight: 700;
     font-size: 18px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
     text-transform: capitalize;
-    color:var(--text-black-900);
+    color: var(--skin-color);
 }
 .about .about-content .timeline .timeline-text
 {
@@ -697,9 +702,9 @@ h3.my-profession
 .service .service-item .service-item-inner h4
 {
     font-size: 18px;
-    margin-bottom:15px;
-    color:var(--text-black-900);
-    font-weight:700;
+    margin-bottom: 15px;
+    color:var(--skin-color);
+    font-weight: 700;
     text-transform:capitalize;
 }
 .service .service-item .service-item-inner p
