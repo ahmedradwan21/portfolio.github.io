@@ -285,6 +285,7 @@ list-style: none;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    display: none;
 }
 .ATR .nav-toggler span
 {
