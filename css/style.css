@@ -167,7 +167,7 @@ list-style: none;
                 0 0 5px #03e9f4,
                 0 0 5px #03e9f4,
                 0 0 5px #03e9f4;
-                
+                background-color:var(--skin-color);
 }
 .btn {
     position: relative;
