@@ -2,12 +2,12 @@
 {
     position: fixed;
     right: 0;
-    top: 30px;
+    top: 60px;
     padding: 15px;
-    width: 668px;
+    width: 200px;
     border: 1px solid var(--bg-black-50);
     background:var(--bg-black-100);
-    z-index: 10;
+    z-index: 101;
     border-radius: 5px;
     transition: all 0.3s ease;
     transform: translatex(100%);/*اختفاء الtheme*/
@@ -19,17 +19,19 @@
 .style-switcher .s-icon
 {
     position: absolute;
-    height: 30px;
-    width: 30px;
+    height: 34px;
+    width: 35px;
     text-align:center;
     font-size: 20px;
     background:var(--bg-black-100);
     border-radius: 50px;
-    right: 105%;
+    right: 100%;
     bottom: -1px;
     border: 1px solid var(--bg-black-50);
     cursor: pointer;
     transition: all 0.3s ease;
+    color:var(--text-black-900);
+    margin-right: 25px;
 }
 .style-switcher .style-switcher-toggler
 {
