@@ -294,7 +294,7 @@ list-style: none;
     background: var(--skin-color);
     display: inline-block;
     position: relative;
-    top: -10px;
+    
     left: -10px;
     margin-left: auto;
 }
